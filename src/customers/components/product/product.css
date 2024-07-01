@@ -1,0 +1,18 @@
+@media screen and (min-width: 496px) {
+    #product {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
+@media screen and (min-width: 825px) {
+    #product {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: between;
+    }
+}
+
+
+/* sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 */

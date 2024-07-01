@@ -1,0 +1,37 @@
+/* productCard,
+productCardImage, */
+@media screen and (min-width: 496px) {
+  #productCard {
+    width: 14rem;
+  }
+
+  #productCardImage {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 370px) {
+    #productCard {
+        width: 22rem;
+      }
+    
+      #productCardImage {
+        height: 25rem;
+      }
+}
+
+@media screen and (min-width: 540px) {
+    #productCard {
+        width: 14rem;
+      }
+    
+      #productCardImage {
+        height: 20rem;
+      }
+}
+
+/* @media screen and (min-width: 496px) {
+    #productCard {
+
+    }
+}  */
